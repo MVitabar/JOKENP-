@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://iczc.cz/fvm6qpv83kg4ia99v8mpdmc2l3-2_7/obrazek);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 30px;
+    background-color: beige;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.player-options {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 83px;
+    padding: 15px;
+    font-size: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+#rock {
+    background-color: fuchsia;
+}
+
+#paper {
+    background-color: green;
+}
+
+#scissors {
+    background-color: deeppink;
+}
+
+p {
+    font-weight: bold;
+    font-size: 32px;
+
+}
+
+.player-score span {
+    color: red;
+
+}
+
+.Alexa-score span {
+    color: blue;
+
+}
+
+button:hover {
+    opacity: 0.6;
+
+}
